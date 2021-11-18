@@ -1,0 +1,147 @@
+html, body {
+    font-family: "Almendra SC", sans-serif;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    color: #162C40;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #add9b88c;
+    padding: 0 0px 20px 20px;
+    border: 5px solid #162C40;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .menu {
+    display: none;
+  }
+
+  .bar {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7394BF;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+  
+  .link {
+    float: left;
+  }
+  
+  .link a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .link a:hover {
+    background-color: #6F8ABF;
+  }
+  .button a:hover {
+    background-color: #6F8ABF;
+  }
+
+  .tag{
+    background-color: #162c40ab;
+    color: white;
+    padding: 5px;
+  }
+
+  .hello{
+    padding: 8% 20%;
+    text-align: left;
+  }
+
+  .my_name{
+    font-size: 40px;
+  }
+
+  .my_photo{
+    width: 100%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+  .right_side{
+    color:white;
+    padding: 0 px;
+    height: 100%;
+    float: right;
+    width: 30%;
+    background-color: #7394bfc7;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+.praca{
+  font-size: 25px;
+}
+
+
+
+ul{
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.postep{
+width: 80%;
+margin: 0 0px;
+height: 20px;
+position: relative;
+background: #162C40 ;
+}
+
+.postep span{
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%; font-family: fantasy;
+  background: white ;
+
+}
+
+.per{
+margin-left: 5%;
+float: right;
+width: 20%;
+}
+
+.iko{
+  height: 20px;
+  margin: 0px 30px;
+}
